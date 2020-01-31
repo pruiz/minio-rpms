@@ -2,7 +2,7 @@
 
 Name:          minio
 Summary:       High performance object storage server compatible with Amazon S3 APIs
-Version:       2020.01.25.025051Z
+Version:       2020.01.25.025051
 Release:       1%{?dist}
 License:       ASL 2.0
 
