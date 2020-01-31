@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 %define  tag   RELEASE.2020-01-25T03-02-19Z
-%define  stag  %(echo "%{tag}" | sed -r -e 's/^RELEASE.//g' -e 's/(....)-(..)-(..)T(..)-(..)-(..)Z/\1.\2\3.\4\5\6/g' )
+%define  stag  %(echo "%{tag}" | sed -r -e 's/^RELEASE.//g' -e 's/(....)-(..)-(..)T(..)-(..)-(..)Z/\1.\2.\3.\4\5\6/g' )
 
 Name:          minio-mc
 Summary:       MinIO Client

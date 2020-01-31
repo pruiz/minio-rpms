@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 %define  tag   RELEASE.2020-01-25T02-50-51Z
-%define  stag  %(echo "%{tag}" | sed -r -e 's/^RELEASE.//g' -e 's/(....)-(..)-(..)T(..)-(..)-(..)Z/\1.\2\3.\4\5\6/g' )
+%define  stag  %(echo "%{tag}" | sed -r -e 's/^RELEASE.//g' -e 's/(....)-(..)-(..)T(..)-(..)-(..)Z/\1.\2.\3.\4\5\6/g' )
 
 Name:          minio
 Summary:       High performance object storage server compatible with Amazon S3 APIs
