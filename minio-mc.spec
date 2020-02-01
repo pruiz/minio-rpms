@@ -6,7 +6,7 @@ Version:       2020.01.25.030219
 Release:       1%{?dist}
 License:       ASL 2.0
 
-Source0:       https://dl.min.io/server/minio/release/linux-amd64/archive/mc.RELEASE.%(echo %{version} | tr '.' '-' |sed -re 's/\.(..)(..)(..)$/T\1-\2-\3Z/g')
+Source0:       https://dl.min.io/server/minio/release/linux-amd64/archive/mc.RELEASE.%(echo %{version} | tr '.' '-' |sed -re 's/-(..)(..)(..)$/T\1-\2-\3Z/g')
 Source1:       https://raw.githubusercontent.com/minio/mc/%{tag}/LICENSE
 URL:           https://min.io
 BuildRoot:     %{_tmppath}/%{name}-root
