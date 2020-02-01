@@ -38,7 +38,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{_bindir}/*
+%{_sbindir}/*
 %license LICENSE
 
 
