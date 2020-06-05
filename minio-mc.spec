@@ -2,7 +2,7 @@
 
 Name:          minio-mc
 Summary:       MinIO Client
-Version:       2020.01.25.030219
+Version:       2020.05.28.234336
 Release:       1%{?dist}
 License:       ASL 2.0
 
