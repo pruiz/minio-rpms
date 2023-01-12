@@ -48,3 +48,4 @@ rm -rf %{buildroot}
 - Update to RELEASE.2023.01.06.181118.95dbebd49 (w/ https://github.com/minio/minio/compare/RELEASE.2023-01-06T18-11-18Z...pruiz:minio:legacy-masterkey-kms)
 * Mon Jan 31 2020 Pablo Ruiz <pablo.ruiz@gmail.com> - 2020.01.25.030219-1
 - Update to RELEASE.2020-01-25T02-50-51Z
+
